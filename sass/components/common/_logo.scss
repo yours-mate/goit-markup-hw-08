@@ -1,0 +1,19 @@
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  @extend %link;
+}
+
+.logo__starttext {
+  color: $accent-color;
+}
+
+.logo__endtext {
+  color: $logo-color;
+}
+
+.logo__endtext--footer {
+  color: $another-accent-color;
+}

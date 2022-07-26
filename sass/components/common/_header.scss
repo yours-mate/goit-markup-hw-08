@@ -1,0 +1,15 @@
+header {
+  background-color: $another-accent-color;
+  border-bottom: 1px solid $border-color;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  // @media screen and (min-width: 768px) {
+  //   justify-content: center;
+  // }
+}

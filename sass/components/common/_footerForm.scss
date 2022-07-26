@@ -1,0 +1,66 @@
+// .footer-form {
+//   margin-left: auto;
+// }
+
+// .footer-form__title {
+//   margin-bottom: 20px;
+
+//   font-size: 14px;
+//   line-height: 1.14;
+//   text-transform: uppercase;
+
+//   color: $another-accent-color;
+// }
+
+// .form-footer {
+//   display: flex;
+// }
+
+// .form-footer__inp {
+//   padding: 15px 16px;
+//   width: 358px;
+//   height: 50px;
+//   margin-right: 12px;
+
+//   border: 1px solid $footer-input-border;
+//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+//   border-radius: 4px;
+//   background-color: transparent;
+//   color: $another-accent-color;
+
+//   &:focus-visible {
+//     outline: none;
+//   }
+// }
+
+// .form-footer__btn {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 0px;
+//   border: none;
+//   width: 200px;
+//   height: 50px;
+
+//   background-color: $accent-color;
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   border-radius: 4px;
+
+//   cursor: pointer;
+
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:hover {
+//     background-color: $btn-hover-color;
+//   }
+// }
+
+// .form-footer__text {
+//   margin-right: 10px;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.88;
+//   letter-spacing: 0.06em;
+
+//   color: $another-accent-color;
+// }
