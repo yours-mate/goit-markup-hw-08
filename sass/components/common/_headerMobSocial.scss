@@ -3,6 +3,10 @@
   display: flex;
 
   @extend %list;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .header-social__item {

@@ -46,24 +46,27 @@
 }
 
 .example__title {
-  padding: 24px 20px;
+  padding: 20px 24px;
   border: 1px solid $portfolio-border-color;
   border-top: none;
 }
 
 .example__name {
   margin-bottom: 4px;
-  width: 322px;
-  color: $secondary-text-color;
+  // width: 322px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  color: $secondary-text-color;
 }
 
 .example__filter {
-  width: 322px;
-  color: $primary-text-color;
+  // width: 322px;
   font-size: 16px;
   line-height: 1.88;
+
+  color: $primary-text-color;
 }

@@ -1,42 +1,43 @@
-// .address {
-//   width: 231px;
-//   font-style: normal;
-//   margin-top: 20px;
-// }
+.address {
+  width: 231px;
+  font-style: normal;
+  margin-top: 13px;
+}
 
-// .address__list {
-//   @extend %list;
-// }
+.address__list {
+  text-align: center;
+  @extend %list;
+}
 
-// .address__item:not(:last-child) {
-//   margin-bottom: 9px;
-// }
+.address__item:not(:last-child) {
+  margin-bottom: 8px;
+}
 
-// .address__map {
-//   color: $another-accent-color;
-//   line-height: 1.71;
+.address__map {
+  color: $another-accent-color;
+  line-height: 1.71;
 
-//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-//   @extend %link;
+  @extend %link;
 
-//   &:focus,
-//   &:hover {
-//     color: $accent-color;
-//   }
-// }
+  &:focus,
+  &:hover {
+    color: $accent-color;
+  }
+}
 
-// .address__mail,
-// .address__tel {
-//   color: $contacts-footer-color;
-//   line-height: 1.71;
+.address__mail,
+.address__tel {
+  color: $contacts-footer-color;
+  line-height: 1.71;
 
-//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-//   @extend %link;
+  @extend %link;
 
-//   &:focus,
-//   &:hover {
-//     color: $accent-color;
-//   }
-// }
+  &:focus,
+  &:hover {
+    color: $accent-color;
+  }
+}

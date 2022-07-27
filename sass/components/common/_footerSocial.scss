@@ -1,45 +1,46 @@
-// .footer-social-div {
-//   margin-left: 70px;
-// }
+.footer-social-div {
+  margin-top: 48px;
+}
 
-// .footer-social-div__title {
-//   margin-bottom: 20px;
-//   font-size: 14px;
-//   line-height: 1.14;
-//   text-transform: uppercase;
-//   color: $another-accent-color;
-// }
+.footer-social-div__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $another-accent-color;
+}
 
-// .footer-social {
-//   display: flex;
+.footer-social {
+  display: flex;
 
-//   @extend %list;
-// }
+  @extend %list;
+}
 
-// .footer-social__item:not(:last-child) {
-//   margin-right: 10px;
-// }
+.footer-social__item:not(:last-child) {
+  margin-right: 10px;
+}
 
-// .footer-social__link {
-//   display: flex;
-//   justify-content: center;
-//   width: 44px;
-//   height: 44px;
-//   border-radius: 50%;
-//   align-items: center;
-//   color: $another-accent-color;
-//   background-color: rgba(255, 255, 255, 0.1);
+.footer-social__link {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  color: $another-accent-color;
+  background-color: rgba(255, 255, 255, 0.1);
 
-//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-//     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-//   &:hover,
-//   &:focus {
-//     color: $another-accent-color;
-//     background-color: $accent-color;
-//   }
-// }
+  &:hover,
+  &:focus {
+    color: $another-accent-color;
+    background-color: $accent-color;
+  }
+}
 
-// .footer-social__icon {
-//   fill: currentColor;
-// }
+.footer-social__icon {
+  fill: currentColor;
+}

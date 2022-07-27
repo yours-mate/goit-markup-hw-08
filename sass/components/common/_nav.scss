@@ -2,6 +2,10 @@
   margin-bottom: 302px;
 
   @extend %list;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .nav__item:not(:last-child) {
@@ -29,12 +33,6 @@
 
 // .nav {
 //     margin-left: 93px;
-// }
-
-// .nav__list {
-//     display: flex;
-
-//     @extend %list
 // }
 
 // .nav__item:not(:last-child) {
