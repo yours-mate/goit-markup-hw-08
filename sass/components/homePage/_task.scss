@@ -1,6 +1,9 @@
 .task {
-  display: none;
   padding-top: 0px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .task__title {

@@ -1,21 +1,31 @@
 .filters {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
+  margin-top: -8px;
   margin-left: -4px;
   margin-right: -4px;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-top: -4px;
+    margin-bottom: 26px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 46px;
+  }
 
   @extend %list;
 }
 
 .filters__item {
   margin: 8px 4px;
-}
 
-// .filters__item:not(:last-child) {
-//   margin-right: 8px;
-// }
+  @media screen and (min-width: 768px) {
+    margin: 4px;
+  }
+}
 
 .filters__btn {
   padding: 6px 30px;
