@@ -12,19 +12,10 @@
 .header-social__item {
   position: relative;
   padding: 10px;
-}
 
-.header-social__link {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.22;
-  letter-spacing: 0.02em;
-
-  color: $accent-color;
-
-  &::before {
+  &:not(:last-child):after {
     position: absolute;
-    left: 0px;
+    right: 0px;
     top: 50%;
     transform: translateY(-50%);
 
@@ -34,6 +25,15 @@
 
     background-color: rgba(33, 33, 33, 0.2);
   }
+}
+
+.header-social__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+
+  color: $accent-color;
 
   @extend %link;
 }

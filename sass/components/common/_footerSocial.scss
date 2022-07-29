@@ -1,5 +1,13 @@
 .footer-social-div {
   margin-top: 48px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
 }
 
 .footer-social-div__title {
@@ -13,6 +21,7 @@
 
 .footer-social {
   display: flex;
+  justify-content: center;
 
   @extend %list;
 }
