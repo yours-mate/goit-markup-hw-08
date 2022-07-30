@@ -23,19 +23,24 @@
         <a href="index.html" class="logo"
           ><span class="logo__starttext">Web</span><span class="logo__endtext">Studio</span></a
         >
+
         <button
-          class="menu-btn"
+          class="menu-btn js-open-menu"
           type="button"
           aria-expanded="false"
           aria-controls="menu-div"
           data-menu-button
         >
           <svg class="menu-btn__icon" width="40" height="40" aria-label="Mobile menu switch">
-            <use class="menu-btn__close" href="./images/icons.svg#icon-close"></use>
             <use class="menu-btn__menu" href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
-        <div class="menu-div" id="menu-div" data-menu>
+        <div class="menu-div js-menu-container" id="menu-div" data-menu>
+          <button class="menu-btn js-close-menu" type="button">
+            <svg class="menu-btn__icon menu-btn__icon--cross" width="40" height="40" aria-label="Mobile menu switch">
+            <use class="menu-btn__close" href="./images/icons.svg#icon-close"></use>
+          </svg>
+          </button>
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item">
@@ -185,7 +190,7 @@
           <ul class="team__list">
             <li class="team__item">
               <img
-                srcset="./images/staffMob1.jpg 450w, ./images/staffMob1@2x.jpg 900w, ./images/staffTab1@2x.jpg 354w, ./images/staffTab1@2x.jpg 708w, ./images/staff1.jpg 270w, ./images/staff2@2x.jpg 540w"
+                srcset="./images/staffMob1.jpg 450w, ./images/staffMob1@2x.jpg 900w, ./images/staffTab1@2x.jpg 354w, ./images/staffTab1@2x.jpg 708w, ./images/staff1.jpg 270w, ./images/staff1@2x.jpg 540w"
                 src="./images/staffMob1.jpg"
                 alt="Christopher Walker"
                 sizes="(min-width: 1200px) 25vw, (min-width: 768px) 45vw, 100vw"

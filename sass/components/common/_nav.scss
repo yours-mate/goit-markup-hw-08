@@ -1,12 +1,12 @@
 .nav__list {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 302px;
-  }
+  @extend %list;
+
+  // @media screen and (max-width: 767px) {
+  //   margin-bottom: auto;
+  // }
   @media screen and (min-width: 768px) {
     display: flex;
   }
-
-  @extend %list;
 }
 
 .nav__item:not(:last-child) {
@@ -45,16 +45,12 @@
   }
 }
 
-// .nav {
-//     margin-left: 93px;
-// }
+.nav__link--current {
+  position: relative;
 
-@media screen and (min-width: 768px) {
-  .nav__link--current {
-    position: relative;
+  color: $accent-color;
 
-    color: $accent-color;
-
+  @media screen and (min-width: 768px) {
     &::after {
       position: absolute;
       left: 0px;

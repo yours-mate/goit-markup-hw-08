@@ -34,6 +34,10 @@
 
   background-color: $another-accent-color;
 
+  @media screen and (max-height: 599px) {
+    transform: translate(-50%, -40%) scale(1);
+  }
+
   @media screen and (min-width: 1200px) {
     max-width: 528px;
     height: 581px;

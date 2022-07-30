@@ -1,5 +1,7 @@
 .example {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -35,7 +37,7 @@
   color: $another-accent-color;
   background-color: $portfolio-background;
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   pointer-events: none;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -49,6 +51,7 @@
   padding: 20px 24px;
   border: 1px solid $portfolio-border-color;
   border-top: none;
+  flex-grow: 1;
 }
 
 .example__name {

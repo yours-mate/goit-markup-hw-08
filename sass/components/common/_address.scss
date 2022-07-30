@@ -7,6 +7,10 @@
 .address__list {
   text-align: center;
   @extend %list;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .address__item:not(:last-child) {
